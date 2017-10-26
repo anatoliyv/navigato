@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C6502CA5D85DC7CE0B73AAE56CB0A4 /* Pods-Navigato_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012CF4904EE9E19EA0A15800DC499D5 /* Pods-Navigato_Example-dummy.m */; };
+		2F8CF4E762A0DA8851C040F96B187DE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */; };
+		39E94A90A9A254F9E34F2A31A9AB7303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
+		453D6BFC06E3FD484F0A9E0EC6FC3EA6 /* Navigato-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F8AB010F905012854FD305337331EB /* Navigato-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4929704F175602AA2314FB3B17FCB89D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
+		78A6D0C9E6197FA824E36E73B8388813 /* Pods-Navigato_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4702A2B577DD6CACA639791943A0651 /* Pods-Navigato_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C845382E431FBA17F2E15DEB1F1429 /* Pods-Navigato_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DC548FF9DD4DC79936202CF61BF36C /* Pods-Navigato_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98CEB0990D7F1A9ECBE6E379A738FB26 /* Navigato-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39F4E9E966E8C927C7406B9C448588 /* Navigato-dummy.m */; };
+		A181D03187046A03D0BD56A8EDD22506 /* Pods-Navigato_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 178F6FF9701EF66A7E69D25557FC7811 /* Pods-Navigato_Tests-dummy.m */; };
+		B7E0724423985475A1826EA5155ED993 /* NavigatoGoogleMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012014FF4D1EA205B2AF33F51D44C355 /* NavigatoGoogleMaps.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA3ACACF124858635D8A9CF9238A7357 /* NavigatoSourceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309FB1952BE9BC3B188E3490F7A141BE /* NavigatoSourceApp.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C24AC6DCD361ED8C1DA4C79EF139D8F2 /* NavigatoMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF979FC3E4F61D2C7C0D5B595D815011 /* NavigatoMaps.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC95E60ECDDDFC20E878AFE0002AAFDB /* Navigato.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE6C043228DFED6F86DFF447050285 /* Navigato.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8E38FD1651840EF9306A99096D3873E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41546420B89143CFD5CC5B0851833073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CD7CF0C9115D6092877D5D97697E98;
+			remoteInfo = Navigato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012014FF4D1EA205B2AF33F51D44C355 /* NavigatoGoogleMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatoGoogleMaps.swift; sourceTree = "<group>"; };
+		043D88C667B3D194F8553E395418483E /* Pods-Navigato_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Navigato_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		0FE1C3E8A51F9B887FB3F197FF862B04 /* Pods_Navigato_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigato_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1538B467F6D17F670AA162357B1B86A4 /* Navigato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navigato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178F6FF9701EF66A7E69D25557FC7811 /* Pods-Navigato_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navigato_Tests-dummy.m"; sourceTree = "<group>"; };
+		213140E535186A976C0277C4488CFC44 /* Pods-Navigato_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		25262E83D944F5FE4F30ACA08FA17678 /* Pods-Navigato_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2ED2D0DCF77299BCA0A141F3E64644B9 /* Pods_Navigato_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigato_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309FB1952BE9BC3B188E3490F7A141BE /* NavigatoSourceApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatoSourceApp.swift; sourceTree = "<group>"; };
+		30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49BB14BA50488103D5D21E7EFCB5B788 /* Pods-Navigato_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigato_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F31B0CDA5DBD568518B45472A5EE537 /* Navigato.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Navigato.xcconfig; sourceTree = "<group>"; };
+		58F7CEE39AA17A305C9253388B4AAAFD /* Pods-Navigato_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Navigato_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6012CF4904EE9E19EA0A15800DC499D5 /* Pods-Navigato_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navigato_Example-dummy.m"; sourceTree = "<group>"; };
+		759D35438CEC24AAF56DA7B3E5CD7848 /* Pods-Navigato_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Example-resources.sh"; sourceTree = "<group>"; };
+		79F8AB010F905012854FD305337331EB /* Navigato-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navigato-umbrella.h"; sourceTree = "<group>"; };
+		8C39F4E9E966E8C927C7406B9C448588 /* Navigato-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navigato-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958A4D2341E45C315366C183ED831F6E /* Pods-Navigato_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Tests-resources.sh"; sourceTree = "<group>"; };
+		95DC548FF9DD4DC79936202CF61BF36C /* Pods-Navigato_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Navigato_Example-umbrella.h"; sourceTree = "<group>"; };
+		97D1367DE0E895B01C6590CE46C9F4D6 /* Pods-Navigato_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigato_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		999BA3D0850CC827F1C5B98120958F95 /* Navigato-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navigato-prefix.pch"; sourceTree = "<group>"; };
+		A1509AD30838ADE04BA0FDD79C3FB158 /* Pods-Navigato_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Navigato_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4F40C786A5F6D2D73E49DF2D1D61C7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF979FC3E4F61D2C7C0D5B595D815011 /* NavigatoMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatoMaps.swift; sourceTree = "<group>"; };
+		B47EC51DBAFEBAFDDCA474D4353A7850 /* Pods-Navigato_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Navigato_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4FC23AE94BDE34C37A55A0BF99C76A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCE6C043228DFED6F86DFF447050285 /* Navigato.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navigato.swift; path = Navigato/Classes/Navigato.swift; sourceTree = "<group>"; };
+		C2EA67F8991C01C346F996F85EC67EA1 /* Navigato.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Navigato.modulemap; sourceTree = "<group>"; };
+		C2EE3D46F310B33F20587E3F4A92412E /* Pods-Navigato_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Navigato_Example.modulemap"; sourceTree = "<group>"; };
+		C587BC1E4E4E9D8317229DD551F038BB /* Pods-Navigato_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigato_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B9EC84742A172F311080931CC3EF72 /* Pods-Navigato_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Navigato_Tests.modulemap"; sourceTree = "<group>"; };
+		E4702A2B577DD6CACA639791943A0651 /* Pods-Navigato_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Navigato_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F1DB76650C0C18B21661375032CF48F6 /* Pods-Navigato_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigato_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F258A9441DB5A68737B32A358C45D59C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72955B825C5F94D084676DA2915BC672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E38FD1651840EF9306A99096D3873E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8987F17BDF9D5BF7DAA77A2727334B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8CF4E762A0DA8851C040F96B187DE5 /* CoreLocation.framework in Frameworks */,
+				4929704F175602AA2314FB3B17FCB89D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE892F358DB29AD5B59F3D2A33CF26A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E94A90A9A254F9E34F2A31A9AB7303 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0096B0C5D83CB82937FF0CAE666C218B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F05EA7A4F5CD4F1691751140C8048028 /* Navigato */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3378F4E84C5AF663ED4DF55D47727CF1 /* Pods-Navigato_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F258A9441DB5A68737B32A358C45D59C /* Info.plist */,
+				D8B9EC84742A172F311080931CC3EF72 /* Pods-Navigato_Tests.modulemap */,
+				58F7CEE39AA17A305C9253388B4AAAFD /* Pods-Navigato_Tests-acknowledgements.markdown */,
+				B47EC51DBAFEBAFDDCA474D4353A7850 /* Pods-Navigato_Tests-acknowledgements.plist */,
+				178F6FF9701EF66A7E69D25557FC7811 /* Pods-Navigato_Tests-dummy.m */,
+				213140E535186A976C0277C4488CFC44 /* Pods-Navigato_Tests-frameworks.sh */,
+				958A4D2341E45C315366C183ED831F6E /* Pods-Navigato_Tests-resources.sh */,
+				E4702A2B577DD6CACA639791943A0651 /* Pods-Navigato_Tests-umbrella.h */,
+				C587BC1E4E4E9D8317229DD551F038BB /* Pods-Navigato_Tests.debug.xcconfig */,
+				F1DB76650C0C18B21661375032CF48F6 /* Pods-Navigato_Tests.release.xcconfig */,
+			);
+			name = "Pods-Navigato_Tests";
+			path = "Target Support Files/Pods-Navigato_Tests";
+			sourceTree = "<group>";
+		};
+		403CE7B0F6B3C8EE5649146642B3BDF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				831223806902B22C61A1DFB7DDB6B76E /* Pods-Navigato_Example */,
+				3378F4E84C5AF663ED4DF55D47727CF1 /* Pods-Navigato_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F9303D4FCFAC6F81DE9C9CE63F66E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0096B0C5D83CB82937FF0CAE666C218B /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F84DD5870858817694CCCBCB2574B27D /* Products */,
+				403CE7B0F6B3C8EE5649146642B3BDF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		831223806902B22C61A1DFB7DDB6B76E /* Pods-Navigato_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4F40C786A5F6D2D73E49DF2D1D61C7E /* Info.plist */,
+				C2EE3D46F310B33F20587E3F4A92412E /* Pods-Navigato_Example.modulemap */,
+				A1509AD30838ADE04BA0FDD79C3FB158 /* Pods-Navigato_Example-acknowledgements.markdown */,
+				043D88C667B3D194F8553E395418483E /* Pods-Navigato_Example-acknowledgements.plist */,
+				6012CF4904EE9E19EA0A15800DC499D5 /* Pods-Navigato_Example-dummy.m */,
+				25262E83D944F5FE4F30ACA08FA17678 /* Pods-Navigato_Example-frameworks.sh */,
+				759D35438CEC24AAF56DA7B3E5CD7848 /* Pods-Navigato_Example-resources.sh */,
+				95DC548FF9DD4DC79936202CF61BF36C /* Pods-Navigato_Example-umbrella.h */,
+				97D1367DE0E895B01C6590CE46C9F4D6 /* Pods-Navigato_Example.debug.xcconfig */,
+				49BB14BA50488103D5D21E7EFCB5B788 /* Pods-Navigato_Example.release.xcconfig */,
+			);
+			name = "Pods-Navigato_Example";
+			path = "Target Support Files/Pods-Navigato_Example";
+			sourceTree = "<group>";
+		};
+		B49CAFCFCB491CFC6CC19FE58D06C3D5 /* SourceApps */ = {
+			isa = PBXGroup;
+			children = (
+				012014FF4D1EA205B2AF33F51D44C355 /* NavigatoGoogleMaps.swift */,
+				AF979FC3E4F61D2C7C0D5B595D815011 /* NavigatoMaps.swift */,
+				309FB1952BE9BC3B188E3490F7A141BE /* NavigatoSourceApp.swift */,
+			);
+			name = SourceApps;
+			path = Navigato/Classes/SourceApps;
+			sourceTree = "<group>";
+		};
+		CB1F9303D4FCFAC6F81DE9C9CE63F66E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */,
+				30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E7D57C36CA4BE15CFC5D79B6948796E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4FC23AE94BDE34C37A55A0BF99C76A5 /* Info.plist */,
+				C2EA67F8991C01C346F996F85EC67EA1 /* Navigato.modulemap */,
+				4F31B0CDA5DBD568518B45472A5EE537 /* Navigato.xcconfig */,
+				8C39F4E9E966E8C927C7406B9C448588 /* Navigato-dummy.m */,
+				999BA3D0850CC827F1C5B98120958F95 /* Navigato-prefix.pch */,
+				79F8AB010F905012854FD305337331EB /* Navigato-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Navigato";
+			sourceTree = "<group>";
+		};
+		F05EA7A4F5CD4F1691751140C8048028 /* Navigato */ = {
+			isa = PBXGroup;
+			children = (
+				BDCE6C043228DFED6F86DFF447050285 /* Navigato.swift */,
+				B49CAFCFCB491CFC6CC19FE58D06C3D5 /* SourceApps */,
+				E7D57C36CA4BE15CFC5D79B6948796E7 /* Support Files */,
+			);
+			name = Navigato;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F84DD5870858817694CCCBCB2574B27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1538B467F6D17F670AA162357B1B86A4 /* Navigato.framework */,
+				0FE1C3E8A51F9B887FB3F197FF862B04 /* Pods_Navigato_Example.framework */,
+				2ED2D0DCF77299BCA0A141F3E64644B9 /* Pods_Navigato_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		550DC90B0F858119BB1726EF69C0D343 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453D6BFC06E3FD484F0A9E0EC6FC3EA6 /* Navigato-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BFA606ED88DAC3934E667C5256EC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6D0C9E6197FA824E36E73B8388813 /* Pods-Navigato_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A614D77EBE857EAB44BAFB5ED8E79B97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C845382E431FBA17F2E15DEB1F1429 /* Pods-Navigato_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27CD7CF0C9115D6092877D5D97697E98 /* Navigato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792229CB0A0E3CA801E85405AFD67114 /* Build configuration list for PBXNativeTarget "Navigato" */;
+			buildPhases = (
+				A423AFCEE1747BB4B16145B6C30375B9 /* Sources */,
+				8987F17BDF9D5BF7DAA77A2727334B95 /* Frameworks */,
+				550DC90B0F858119BB1726EF69C0D343 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Navigato;
+			productName = Navigato;
+			productReference = 1538B467F6D17F670AA162357B1B86A4 /* Navigato.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9244FF1A6C71CE95A1692578F88222EF /* Pods-Navigato_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9B311BBC586624D6DACD86E58544B4 /* Build configuration list for PBXNativeTarget "Pods-Navigato_Example" */;
+			buildPhases = (
+				56EE815E65113A3E5BC03305B0CF6F0A /* Sources */,
+				BE892F358DB29AD5B59F3D2A33CF26A8 /* Frameworks */,
+				A614D77EBE857EAB44BAFB5ED8E79B97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA935CBF7B03A9EE17E9B25F07913FB /* PBXTargetDependency */,
+			);
+			name = "Pods-Navigato_Example";
+			productName = "Pods-Navigato_Example";
+			productReference = 0FE1C3E8A51F9B887FB3F197FF862B04 /* Pods_Navigato_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4BF919830C1ACF6AD06E51136BB05C4 /* Pods-Navigato_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6CEA651596E5FABD139396A14C671F /* Build configuration list for PBXNativeTarget "Pods-Navigato_Tests" */;
+			buildPhases = (
+				473E4BD587C23C1B36FFA52D82349B8F /* Sources */,
+				72955B825C5F94D084676DA2915BC672 /* Frameworks */,
+				57BFA606ED88DAC3934E667C5256EC4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Navigato_Tests";
+			productName = "Pods-Navigato_Tests";
+			productReference = 2ED2D0DCF77299BCA0A141F3E64644B9 /* Pods_Navigato_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F84DD5870858817694CCCBCB2574B27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CD7CF0C9115D6092877D5D97697E98 /* Navigato */,
+				9244FF1A6C71CE95A1692578F88222EF /* Pods-Navigato_Example */,
+				A4BF919830C1ACF6AD06E51136BB05C4 /* Pods-Navigato_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473E4BD587C23C1B36FFA52D82349B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A181D03187046A03D0BD56A8EDD22506 /* Pods-Navigato_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EE815E65113A3E5BC03305B0CF6F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C6502CA5D85DC7CE0B73AAE56CB0A4 /* Pods-Navigato_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A423AFCEE1747BB4B16145B6C30375B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CEB0990D7F1A9ECBE6E379A738FB26 /* Navigato-dummy.m in Sources */,
+				CC95E60ECDDDFC20E878AFE0002AAFDB /* Navigato.swift in Sources */,
+				B7E0724423985475A1826EA5155ED993 /* NavigatoGoogleMaps.swift in Sources */,
+				C24AC6DCD361ED8C1DA4C79EF139D8F2 /* NavigatoMaps.swift in Sources */,
+				BA3ACACF124858635D8A9CF9238A7357 /* NavigatoSourceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EA935CBF7B03A9EE17E9B25F07913FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Navigato;
+			target = 27CD7CF0C9115D6092877D5D97697E98 /* Navigato */;
+			targetProxy = 41546420B89143CFD5CC5B0851833073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28A904B4758B7EF4DAED0A15750C0820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F31B0CDA5DBD568518B45472A5EE537 /* Navigato.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Navigato/Navigato-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navigato/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Navigato/Navigato.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Navigato;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3540B8D340AB00AA7A9A00CF5271C89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D1367DE0E895B01C6590CE46C9F4D6 /* Pods-Navigato_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigato_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigato_Example/Pods-Navigato_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigato_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44D4C90D3B5E6AC76384C1A9B5AE48C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BB14BA50488103D5D21E7EFCB5B788 /* Pods-Navigato_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigato_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigato_Example/Pods-Navigato_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigato_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95BC5B05DB7DB80022352F699FB9EE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C587BC1E4E4E9D8317229DD551F038BB /* Pods-Navigato_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigato_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigato_Tests/Pods-Navigato_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigato_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B7D02779E05B81D0BBC4998D42402F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DB76650C0C18B21661375032CF48F6 /* Pods-Navigato_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigato_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigato_Tests/Pods-Navigato_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigato_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71F53A319894FBE85D5C2D033E1E961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F31B0CDA5DBD568518B45472A5EE537 /* Navigato.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Navigato/Navigato-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navigato/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Navigato/Navigato.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Navigato;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C9B311BBC586624D6DACD86E58544B4 /* Build configuration list for PBXNativeTarget "Pods-Navigato_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3540B8D340AB00AA7A9A00CF5271C89A /* Debug */,
+				44D4C90D3B5E6AC76384C1A9B5AE48C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792229CB0A0E3CA801E85405AFD67114 /* Build configuration list for PBXNativeTarget "Navigato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71F53A319894FBE85D5C2D033E1E961 /* Debug */,
+				28A904B4758B7EF4DAED0A15750C0820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6CEA651596E5FABD139396A14C671F /* Build configuration list for PBXNativeTarget "Pods-Navigato_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC5B05DB7DB80022352F699FB9EE60 /* Debug */,
+				9B7D02779E05B81D0BBC4998D42402F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

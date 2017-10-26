@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Navigato_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeC-BN-nl4">
+                                <rect key="frame" x="16" y="52" width="343" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="sM1-14-taZ"/>
+                                </constraints>
+                                <state key="normal" title="Apple by Address"/>
+                                <connections>
+                                    <action selector="pressedAddressWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JK7-2v-7u1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMs-Lj-pGW">
+                                <rect key="frame" x="16" y="104" width="343" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="87a-9G-kGm"/>
+                                </constraints>
+                                <state key="normal" title="Oxford by location"/>
+                                <connections>
+                                    <action selector="pressedLocationWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="D2I-Se-UxJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bep-go-Ljr">
+                                <rect key="frame" x="16" y="156" width="343" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="taM-88-sjP"/>
+                                </constraints>
+                                <state key="normal" title="Empire State Building by search"/>
+                                <connections>
+                                    <action selector="pressedSearchWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rID-gD-zEE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CeC-BN-nl4" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="Fxc-5A-0sB"/>
+                            <constraint firstAttribute="trailing" secondItem="lMs-Lj-pGW" secondAttribute="trailing" constant="16" id="IoT-qe-VvG"/>
+                            <constraint firstAttribute="trailing" secondItem="CeC-BN-nl4" secondAttribute="trailing" constant="16" id="JA1-PM-1iB"/>
+                            <constraint firstItem="CeC-BN-nl4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Q01-4E-Iy8"/>
+                            <constraint firstItem="bep-go-Ljr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="jgA-of-qhc"/>
+                            <constraint firstItem="lMs-Lj-pGW" firstAttribute="top" secondItem="CeC-BN-nl4" secondAttribute="bottom" constant="8" id="m1P-t7-0Ro"/>
+                            <constraint firstAttribute="trailing" secondItem="bep-go-Ljr" secondAttribute="trailing" constant="16" id="scm-hy-UP4"/>
+                            <constraint firstItem="bep-go-Ljr" firstAttribute="top" secondItem="lMs-Lj-pGW" secondAttribute="bottom" constant="8" id="uAH-MA-R5a"/>
+                            <constraint firstItem="lMs-Lj-pGW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="wVS-sn-x8v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="30.134932533733135"/>
+        </scene>
+    </scenes>
+</document>

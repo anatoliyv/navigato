@@ -1,0 +1,6 @@
+framework module Navigato {
+  umbrella header "Navigato-umbrella.h"
+
+  export *
+  module * { export * }
+}
