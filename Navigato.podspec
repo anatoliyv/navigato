@@ -26,8 +26,8 @@ iOS library to work with maps and navigation apps on iOS devices. Allows you to:
 
   s.homepage         = 'https://github.com/anatoliyv/navigato'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'anatoliy.voropay@gmail.com' => 'anatoliy.voropay@gmail.com' }
-  s.source           = { :git => 'https://github.com/anatoliy.voropay@gmail.com/Navigato.git', :tag => s.version.to_s }
+  s.author           = { 'Anatoliy Voropay' => 'anatoliy.voropay@gmail.com' }
+  s.source           = { :git => 'https://github.com/anatoliyv/navigato.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/anatoliy_v'
 
   s.ios.deployment_target = '9.0'
