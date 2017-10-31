@@ -17,15 +17,15 @@ public class NavigatoLocationCache {
     /// Address to placemeark cache
     fileprivate var placemarks: [String:CLPlacemark] = [:]
 
-    // MARK: Lifecycle
+    // MARK: Cache
 
     /// Cache location by address
-    func cache(address: String) {
+    public func cache(address: String) {
         cache(addresses: [address])
     }
 
     /// Cache location by array of addresses strings
-    func cache(addresses: [String]) {
+    public func cache(addresses: [String]) {
         addresses.forEach({ (address) in
             location(byAddress: address, completion: { _ in })
         })
@@ -35,7 +35,7 @@ public class NavigatoLocationCache {
 
     /// Get `CLLocation` by address. If address already is in our cache no actual request to
     /// `CLGeocoder` will be performed and we will use cached value.
-    func location(byAddress address: String, completion: @escaping (CLLocation?) -> Void) {
+    public func location(byAddress address: String, completion: @escaping (CLLocation?) -> Void) {
         if let location = locations[address] {
             DispatchQueue.main.async {
                 completion(location)
@@ -48,7 +48,7 @@ public class NavigatoLocationCache {
         }
     }
 
-    func cachedLocation(byAddress address: String) -> CLLocation? {
+    public func cachedLocation(byAddress address: String) -> CLLocation? {
         if let location = locations[address] {
             return location
         }
@@ -60,7 +60,7 @@ public class NavigatoLocationCache {
 
     /// Get `CLPlacemark` by address. If address already is in our cache no actual request to
     /// `CLGeocoder` will be performed and we will use cached value.
-    func placement(byAddress address: String, completion: @escaping (CLPlacemark?) -> Void) {
+    public func placement(byAddress address: String, completion: @escaping (CLPlacemark?) -> Void) {
         if let placemark = placemarks[address] {
             DispatchQueue.main.async {
                 completion(placemark)
@@ -73,7 +73,7 @@ public class NavigatoLocationCache {
         }
     }
 
-    func cachedPlacemark(byAddress address: String) -> CLPlacemark? {
+    public func cachedPlacemark(byAddress address: String) -> CLPlacemark? {
         if let placemark = placemarks[address] {
             return placemark
         }
