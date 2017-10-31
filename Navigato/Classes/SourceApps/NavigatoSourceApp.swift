@@ -76,7 +76,7 @@ public class NavigatoSourceApp: NavigatoSourceAppProtocol {
 
         switch request {
         case .address, .search:
-            guard let string = (value as? String)?.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return }
+            guard let string = (value as? String)?.addingPercentEncoding(withAllowedCharacters: queryCharacterSet) else { return }
             destinationURL = URL(string: path + string)
 
         case .location:
@@ -88,5 +88,12 @@ public class NavigatoSourceApp: NavigatoSourceAppProtocol {
         guard let url = destinationURL else { return }
         guard UIApplication.shared.canOpenURL(url) else { return }
         UIApplication.shared.openURL(url)
+    }
+
+    private var queryCharacterSet: CharacterSet {
+        let characterSet = NSMutableCharacterSet()
+        characterSet.formUnion(with: CharacterSet.urlQueryAllowed)
+        characterSet.removeCharacters(in: "&")
+        return characterSet as CharacterSet
     }
 }
