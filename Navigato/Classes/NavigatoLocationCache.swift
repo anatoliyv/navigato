@@ -17,6 +17,10 @@ public class NavigatoLocationCache {
     /// Address to placemeark cache
     fileprivate var placemarks: [String:CLPlacemark] = [:]
 
+    // MARK: Lifecycle
+
+    public init() { }
+
     // MARK: Cache
 
     /// Cache location by address
