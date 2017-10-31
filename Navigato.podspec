@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Navigato'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'iOS library to work with maps and navigation apps on iOS devices.'
 
 # This description is used to generate tags and improve search results.
