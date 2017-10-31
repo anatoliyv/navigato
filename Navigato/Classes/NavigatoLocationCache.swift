@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 /// Class used to cache location by address
-public class LocationCache {
+public class NavigatoLocationCache {
 
     /// Address to location cache
     fileprivate var locations: [String:CLLocation] = [:]
