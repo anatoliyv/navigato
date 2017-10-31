@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12C6502CA5D85DC7CE0B73AAE56CB0A4 /* Pods-Navigato_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6012CF4904EE9E19EA0A15800DC499D5 /* Pods-Navigato_Example-dummy.m */; };
+		1C49589A1FA8788400A2BE32 /* NavigatoWaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4958991FA8788400A2BE32 /* NavigatoWaze.swift */; };
 		2F8CF4E762A0DA8851C040F96B187DE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */; };
 		39E94A90A9A254F9E34F2A31A9AB7303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
 		453D6BFC06E3FD484F0A9E0EC6FC3EA6 /* Navigato-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F8AB010F905012854FD305337331EB /* Navigato-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 		0FE1C3E8A51F9B887FB3F197FF862B04 /* Pods_Navigato_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigato_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1538B467F6D17F670AA162357B1B86A4 /* Navigato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Navigato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		178F6FF9701EF66A7E69D25557FC7811 /* Pods-Navigato_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navigato_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C4958991FA8788400A2BE32 /* NavigatoWaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatoWaze.swift; sourceTree = "<group>"; };
 		213140E535186A976C0277C4488CFC44 /* Pods-Navigato_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		25262E83D944F5FE4F30ACA08FA17678 /* Pods-Navigato_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigato_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2ED2D0DCF77299BCA0A141F3E64644B9 /* Pods_Navigato_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigato_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +180,7 @@
 			children = (
 				012014FF4D1EA205B2AF33F51D44C355 /* NavigatoGoogleMaps.swift */,
 				AF979FC3E4F61D2C7C0D5B595D815011 /* NavigatoMaps.swift */,
+				1C4958991FA8788400A2BE32 /* NavigatoWaze.swift */,
 				309FB1952BE9BC3B188E3490F7A141BE /* NavigatoSourceApp.swift */,
 			);
 			name = SourceApps;
@@ -362,6 +365,7 @@
 				98CEB0990D7F1A9ECBE6E379A738FB26 /* Navigato-dummy.m in Sources */,
 				CC95E60ECDDDFC20E878AFE0002AAFDB /* Navigato.swift in Sources */,
 				B7E0724423985475A1826EA5155ED993 /* NavigatoGoogleMaps.swift in Sources */,
+				1C49589A1FA8788400A2BE32 /* NavigatoWaze.swift in Sources */,
 				C24AC6DCD361ED8C1DA4C79EF139D8F2 /* NavigatoMaps.swift in Sources */,
 				BA3ACACF124858635D8A9CF9238A7357 /* NavigatoSourceApp.swift in Sources */,
 			);

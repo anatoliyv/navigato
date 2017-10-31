@@ -40,6 +40,7 @@ public class Navigato {
         return [
             NavigatoMaps(),
             NavigatoGoogleMaps(),
+            NavigatoWaze(),
         ]
     }
 
